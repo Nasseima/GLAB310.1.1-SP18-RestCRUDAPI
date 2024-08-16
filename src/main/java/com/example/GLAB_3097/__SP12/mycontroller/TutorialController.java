@@ -1,12 +1,11 @@
-package mycontroller;
+package com.example.GLAB_3097.__SP12.mycontroller;
 
-import model.Tutorial;
-import myservices.TutorialServices;
+import com.example.GLAB_3097.__SP12.model.Tutorial;
+import com.example.GLAB_3097.__SP12.myservices.TutorialServices;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import java.util.ArrayList;
+
 import java.util.List;
 import java.util.Optional;
 

@@ -1,6 +1,6 @@
-package repository;
+package com.example.GLAB_3097.__SP12.repository;
 
-import model.Tutorial;
+import com.example.GLAB_3097.__SP12.model.Tutorial;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

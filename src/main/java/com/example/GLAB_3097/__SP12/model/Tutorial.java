@@ -1,4 +1,4 @@
-package model;
+package com.example.GLAB_3097.__SP12.model;
 
 import jakarta.persistence.*;
 
