@@ -2,10 +2,11 @@ package com.example.GLAB_3097.__SP12.repository;
 
 import com.example.GLAB_3097.__SP12.model.Tutorial;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
-@Repository
+@RepositoryRestResource(path="learningtutorials")
 public interface TutorialRepository extends JpaRepository<Tutorial, Long>
         // Tutorial → Entity type and Long --> primary key
 {
